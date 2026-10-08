@@ -1,0 +1,15 @@
+{
+  "name": "systemstore",
+  "version": "1.0.0",
+  "description": "systemStore api",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch server.js",
+    "seed": "bun seed.js",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}
